@@ -237,5 +237,5 @@ def chat_with_gpt3(prompt):
     )
     return response.choices[0].text.strip()
 
-# Polling loop to keep the bot running
+# Polling loop to keep the bot runningasa
 bot.polling()
